@@ -1,0 +1,26 @@
+# Django & REST Framework
+Django>=5.0,<5.2
+djangorestframework>=3.15,<4
+djangorestframework-simplejwt>=5.3,<6
+
+# API documentation
+drf-spectacular>=0.27,<1
+
+# Cross-origin & environment
+django-cors-headers>=4.4,<5
+django-environ>=0.11,<1
+python-dotenv>=1.0,<2
+
+# Database (MySQL production)
+PyMySQL>=1.1,<2
+
+# Media handling
+Pillow>=10.0,<12
+
+# Production server
+gunicorn>=22.0,<24
+
+# FastAPI AI services (see ai_services/requirements.txt)
+fastapi>=0.115,<1
+uvicorn[standard]>=0.32,<1
+httpx>=0.27,<1
